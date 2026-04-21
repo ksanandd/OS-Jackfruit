@@ -264,14 +264,81 @@ boilerplate/
 
 ## Screenshots
 
-Available in `Screenshots/` directory:
+### Kernel Module Loaded & Device File Created
 
-* Environment check
-* Build output
-* Supervisor running
-* Container logs
-* Memory limit enforcement
-* Scheduler experiments
+<img width="1217" height="95" alt="SS 1" src="https://github.com/user-attachments/assets/0b46b8db-a675-4328-8e99-ba103b0ce134" />
+
+---
+
+### Starting Containers & Listing (ps)
+
+<img width="1207" height="246" alt="SS 2" src="https://github.com/user-attachments/assets/d1a88ace-9a0b-4962-979b-407fae2780cb" />
+
+---
+
+### Workload Execution (cpu_hog logs)
+
+<img width="1216" height="714" alt="SS 3" src="https://github.com/user-attachments/assets/1409e065-eae2-4c2b-9a7a-19d764931c87" />
+
+<img width="1216" height="714" alt="SS 4" src="https://github.com/user-attachments/assets/3687a7ad-9336-4be9-8ea9-d71c5122c599" />
+
+<img width="1216" height="714" alt="SS 5" src="https://github.com/user-attachments/assets/fa4dab8f-eed1-404e-ab49-42249139b63b" />
+
+<img width="1216" height="714" alt="SS 6" src="https://github.com/user-attachments/assets/b8f4f660-6e8a-4ecb-96ac-49e00f424e34" />
+
+<img width="1213" height="489" alt="SS 7" src="https://github.com/user-attachments/assets/600465e1-d463-48c5-931f-b9b6d065afd0" />
+
+---
+
+### Container Stop (Killed State)
+
+<img width="1208" height="135" alt="SS 8" src="https://github.com/user-attachments/assets/892763d6-099e-4fcf-8bbc-c08aa6affc0f" />
+
+---
+
+### Memory Limit Enforcement (memhog)
+
+<img width="1204" height="160" alt="SS 9" src="https://github.com/user-attachments/assets/0021ed77-051a-416d-8d70-9142e1e15962" />
+
+---
+
+### Kernel Logs (Soft + Hard Limit)
+
+<img width="1204" height="160" alt="SS 10 T3" src="https://github.com/user-attachments/assets/4bed9275-4920-46b7-b866-dac321c20b6a" />
+
+<img width="1212" height="453" alt="SS 11 T3" src="https://github.com/user-attachments/assets/e1969de7-0f83-4a46-a581-3ef0d4b70cb9" />
+
+---
+
+### Clean Shutdown (No Zombie Processes)
+
+<img width="1218" height="77" alt="SS 12 Zombie Defunt" src="https://github.com/user-attachments/assets/56fda943-9e96-4c27-a622-fef95a1c68a4" />
+
+---
+
+## Scheduler Experiments
+
+### Experiment 1: Equal Priority (CFS Fairness)
+
+<img width="1217" height="491" alt="SS 13 Exp1" src="https://github.com/user-attachments/assets/5e7be89c-52a9-477c-b128-f0899db4aad6" />
+
+<img width="1217" height="491" alt="SS 14 Exp1(2)" src="https://github.com/user-attachments/assets/938829b3-b53d-4a42-81b4-d2e91c255240" />
+
+---
+
+### Experiment 2: Different Nice Values
+
+<img width="1207" height="443" alt="SS 15 Exp2" src="https://github.com/user-attachments/assets/5754a832-3018-484e-b142-bd182b30c865" />
+
+`<img width="1207" height="465" alt="SS 16 Exp2(2)" src="https://github.com/user-attachments/assets/745007cb-281c-4537-91a8-63f5c43c2620" />
+
+---
+
+### Experiment 3: CPU-bound vs I/O-bound
+
+<img width="1202" height="443" alt="SS 17 Exp3" src="https://github.com/user-attachments/assets/49699be9-e278-4dba-8f32-bedc85f7b070" />
+
+<img width="1216" height="474" alt="SS 18 Exp3(2)" src="https://github.com/user-attachments/assets/f9678fd0-eec1-46e1-826e-9cbd08df7173" />
 
 ---
 
